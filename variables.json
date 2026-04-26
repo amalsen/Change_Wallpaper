@@ -1,0 +1,16 @@
+{
+    "ps_script_path": ".\\wallpaper.ps1",
+    "src": {
+        "Directory": ".\\img\\",
+        "image": "wim"
+    },
+    "target": {
+        "Disk": "C:",
+        "Directory": "\\Users\\Public\\"
+    },
+    "reg": {
+        "pathHkCurrent": "HKCU:\\Control Panel\\Desktop",
+        "pathHkSystem": "HKCU:\\Software\\Microsoft\\Windows\\CurrentVersion\\Policies\\System"
+    },
+    "systemRefresh": 10
+}
