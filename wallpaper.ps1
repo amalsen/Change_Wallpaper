@@ -78,7 +78,7 @@ elseif ($type -in 1, 2) {
         }
     }
     $srcImage = $srcImage + $choice + $format
-    $wallpaperLocation = $wallpaperLocation + $choice
+    $wallpaperLocation = $wallpaperLocation + $choice + $format
 
     # ------------------------------------------------------------------------------------------------------------------------------
 
